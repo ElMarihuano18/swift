@@ -1,0 +1,342 @@
+﻿{
+  "configurations": [
+    {
+      "name": "x64-Debug (default)",
+      "generator": "Ninja",
+      "configurationType": "Debug",
+      "inheritEnvironments": [ "msvc_x64_x64" ],
+      "buildRoot": "${projectDir}\\out\\build\\${name}",
+      "installRoot": "${projectDir}\\out\\install\\${name}",
+      "cmakeCommandArgs": "",
+      "buildCommandArgs": "",
+      "ctestCommandArgs": "",
+      "variables": [
+        {
+          "name": "CLANG_COMPILER_VERSION",
+          "value": "",
+          "type": "STRING"
+        },
+        {
+          "name": "CMAKE_BUILD_TYPE",
+          "value": "Debug",
+          "type": "STRING"
+        },
+        {
+          "name": "CMAKE_CXX_STANDARD",
+          "value": "14",
+          "type": "STRING"
+        },
+        {
+          "name": "CMAKE_INSTALL_PREFIX",
+          "value": "W:/Swift/out/install/x64-Debug (default)",
+          "type": "PATH"
+        },
+        {
+          "name": "CMAKE_MAKE_PROGRAM",
+          "value": "W:/Program Files (x86)/Microsoft Visual Studio/2019/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe",
+          "type": "FILEPATH"
+        },
+        {
+          "name": "LLVM_DIR",
+          "value": "LLVM_DIR-NOTFOUND",
+          "type": "PATH"
+        },
+        {
+          "name": "LLVM_ENABLE_WARNINGS",
+          "value": "true",
+          "type": "BOOL"
+        },
+        {
+          "name": "SWIFT_ANALYZE_CODE_COVERAGE",
+          "value": "FALSE",
+          "type": "STRING"
+        },
+        {
+          "name": "SWIFT_ANDROID_aarch64_ICU_I18N",
+          "value": "",
+          "type": "STRING"
+        },
+        {
+          "name": "SWIFT_ANDROID_aarch64_ICU_I18N_INCLUDE",
+          "value": "",
+          "type": "STRING"
+        },
+        {
+          "name": "SWIFT_ANDROID_aarch64_ICU_UC",
+          "value": "",
+          "type": "STRING"
+        },
+        {
+          "name": "SWIFT_ANDROID_aarch64_ICU_UC_INCLUDE",
+          "value": "",
+          "type": "STRING"
+        },
+        {
+          "name": "SWIFT_ANDROID_API_LEVEL",
+          "value": "",
+          "type": "STRING"
+        },
+        {
+          "name": "SWIFT_ANDROID_armv6_ICU_I18N",
+          "value": "",
+          "type": "STRING"
+        },
+        {
+          "name": "SWIFT_ANDROID_armv6_ICU_I18N_INCLUDE",
+          "value": "",
+          "type": "STRING"
+        },
+        {
+          "name": "SWIFT_ANDROID_armv6_ICU_UC",
+          "value": "",
+          "type": "STRING"
+        },
+        {
+          "name": "SWIFT_ANDROID_armv6_ICU_UC_INCLUDE",
+          "value": "",
+          "type": "STRING"
+        },
+        {
+          "name": "SWIFT_ANDROID_armv7_ICU_I18N",
+          "value": "",
+          "type": "STRING"
+        },
+        {
+          "name": "SWIFT_ANDROID_armv7_ICU_I18N_INCLUDE",
+          "value": "",
+          "type": "STRING"
+        },
+        {
+          "name": "SWIFT_ANDROID_armv7_ICU_UC",
+          "value": "",
+          "type": "STRING"
+        },
+        {
+          "name": "SWIFT_ANDROID_armv7_ICU_UC_INCLUDE",
+          "value": "",
+          "type": "STRING"
+        },
+        {
+          "name": "SWIFT_ANDROID_DEPLOY_DEVICE_PATH",
+          "value": "",
+          "type": "STRING"
+        },
+        {
+          "name": "SWIFT_BUILD_SOURCEKIT",
+          "value": "true",
+          "type": "BOOL"
+        },
+        {
+          "name": "SWIFT_BUILD_REMOTE_MIRROR",
+          "value": "true",
+          "type": "BOOL"
+        },
+        {
+          "name": "SWIFT_BUILD_STATIC_SDK_OVERLAY",
+          "value": "false",
+          "type": "BOOL"
+        },
+        {
+          "name": "SWIFT_BUILD_STATIC_STDLIB",
+          "value": "false",
+          "type": "BOOL"
+        },
+        {
+          "name": "SWIFT_COMPILER_VERSION",
+          "value": "",
+          "type": "STRING"
+        },
+        {
+          "name": "SWIFT_DARWIN_DEPLOYMENT_VERSION_IOS",
+          "value": "7.0",
+          "type": "STRING"
+        },
+        {
+          "name": "SWIFT_DARWIN_DEPLOYMENT_VERSION_TVOS",
+          "value": "9.0",
+          "type": "STRING"
+        },
+        {
+          "name": "SWIFT_DARWIN_DEPLOYMENT_VERSION_OSX",
+          "value": "10.9",
+          "type": "STRING"
+        },
+        {
+          "name": "SWIFT_DARWIN_DEPLOYMENT_VERSION_WATCHOS",
+          "value": "2.0",
+          "type": "STRING"
+        },
+        {
+          "name": "SWIFT_DARWIN_MODULE_ARCHS",
+          "value": "",
+          "type": "STRING"
+        },
+        {
+          "name": "SWIFT_DARWIN_STDLIB_INSTALL_NAME_DIR",
+          "value": "W:/lib/swift",
+          "type": "STRING"
+        },
+        {
+          "name": "SWIFT_DARWIN_XCRUN_TOOLCHAIN",
+          "value": "XcodeDefault",
+          "type": "STRING"
+        },
+        {
+          "name": "SWIFT_DARWIN_STDLIB_PRIVATE_INSTALL_NAME_DIR",
+          "value": "@rpath",
+          "type": "STRING"
+        },
+        {
+          "name": "SWIFT_DARWIN_SUPPORTED_ARCHS",
+          "value": "",
+          "type": "STRING"
+        },
+        {
+          "name": "SWIFT_DISABLE_OBJC_INTEROP",
+          "value": "false",
+          "type": "BOOL"
+        },
+        {
+          "name": "SWIFT_EMBED_BITCODE_SECTION_HIDE_SYMBOLS",
+          "value": "false",
+          "type": "BOOL"
+        },
+        {
+          "name": "SWIFT_EMBED_BITCODE_SECTION",
+          "value": "false",
+          "type": "BOOL"
+        },
+        {
+          "name": "SWIFT_EMIT_SORTED_SIL_OUTPUT",
+          "value": "false",
+          "type": "BOOL"
+        },
+        {
+          "name": "SWIFT_ENABLE_EXPERIMENTAL_CONCURRENCY",
+          "value": "false",
+          "type": "BOOL"
+        },
+        {
+          "name": "SWIFT_ENABLE_EXPERIMENTAL_DIFFERENTIABLE_PROGRAMMING",
+          "value": "false",
+          "type": "BOOL"
+        },
+        {
+          "name": "SWIFT_ENABLE_SOURCEKIT_TESTS",
+          "value": "true",
+          "type": "BOOL"
+        },
+        {
+          "name": "SWIFT_HAIKU_i686_ICU_UC_INCLUDE",
+          "value": "",
+          "type": "STRING"
+        },
+        {
+          "name": "SWIFT_HAIKU_i686_ICU_UC",
+          "value": "",
+          "type": "STRING"
+        },
+        {
+          "name": "SWIFT_FREEBSD_x86_64_ICU_I18N_INCLUDE",
+          "value": "",
+          "type": "STRING"
+        },
+        {
+          "name": "SWIFT_FREEBSD_x86_64_ICU_UC_INCLUDE",
+          "value": "",
+          "type": "STRING"
+        },
+        {
+          "name": "SWIFT_HAIKU_x86_64_ICU_UC",
+          "value": "",
+          "type": "STRING"
+        },
+        {
+          "name": "SWIFT_HAIKU_x86_64_ICU_UC_INCLUDE",
+          "value": "",
+          "type": "STRING"
+        },
+        {
+          "name": "SWIFT_NATIVE_CLANG_TOOLS_PATH",
+          "value": "W:/lib/TOOLS/CLANG",
+          "type": "STRING"
+        },
+        {
+          "name": "SWIFT_NATIVE_LLVM_TOOLS_PATH",
+          "value": "W:/lib/TOOLS/LLVM",
+          "type": "STRING"
+        },
+        {
+          "name": "SWIFT_NATIVE_SWIFT_TOOLS_PATH",
+          "value": "W:/lib/TOOLS/SWIFT",
+          "type": "STRING"
+        },
+        {
+          "name": "SWIFT_PARALLEL_LINK_JOBS",
+          "value": "",
+          "type": "STRING"
+        },
+        {
+          "name": "SWIFT_PRIMARY_VARIANT_ARCH",
+          "value": "",
+          "type": "STRING"
+        },
+        {
+          "name": "SWIFT_PRIMARY_VARIANT_SDK",
+          "value": "",
+          "type": "STRING"
+        },
+        {
+          "name": "SWIFT_SDKS",
+          "value": "",
+          "type": "STRING"
+        },
+        {
+          "name": "SWIFT_SIL_VERIFY_ALL",
+          "value": "false",
+          "type": "BOOL"
+        },
+        {
+          "name": "SWIFT_STDLIB_BUILD_TYPE",
+          "value": "Debug",
+          "type": "STRING"
+        },
+        {
+          "name": "SWIFT_STDLIB_MSVC_RUNTIME_LIBRARY",
+          "value": "MultiThreadedDebugDLL",
+          "type": "STRING"
+        },
+        {
+          "name": "SWIFT_USE_LINKER",
+          "value": "gold",
+          "type": "STRING"
+        },
+        {
+          "name": "SWIFT_TOOLS_ENABLE_LTO",
+          "value": "OFF",
+          "type": "STRING"
+        },
+        {
+          "name": "SWIFT_WASI_x86_64_ICU_I18N_INCLUDE",
+          "value": "",
+          "type": "STRING"
+        },
+        {
+          "name": "SWIFT_WASI_x86_64_ICU_UC_INCLUDE",
+          "value": "",
+          "type": "STRING"
+        },
+        {
+          "name": "SWIFT_WINDOWS_x86_64_ICU_I18N_INCLUDE",
+          "value": "",
+          "type": "STRING"
+        },
+        {
+          "name": "SWIFT_WINDOWS_x86_64_ICU_UC_INCLUDE",
+          "value": "",
+          "type": "STRING"
+        }
+      ]
+    }
+  ]
+}
