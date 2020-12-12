@@ -4,8 +4,8 @@
       "name": "x64-Debug (default)",
       "generator": "Ninja",
       "configurationType": "Debug",
-      "inheritEnvironments": [ "msvc_x86_x64" ],
-      "buildRoot": "W:/Swift/out/build/x64-Debug (default)/CMakeFiles/CMakeTmp",
+      "inheritEnvironments": [ "msvc_x64_x64" ],
+      "buildRoot": "${projectDir}\\out\\build\\${name}",
       "installRoot": "${projectDir}\\out\\install\\${name}",
       "cmakeCommandArgs": "",
       "buildCommandArgs": "",
@@ -13,7 +13,7 @@
       "variables": [
         {
           "name": "CLANG_COMPILER_VERSION",
-          "value": "1.0",
+          "value": "",
           "type": "STRING"
         },
         {
@@ -45,6 +45,11 @@
           "name": "LLVM_ENABLE_WARNINGS",
           "value": "true",
           "type": "BOOL"
+        },
+        {
+          "name": "SWIFT_ANALYZE_CODE_COVERAGE",
+          "value": "FALSE",
+          "type": "STRING"
         },
         {
           "name": "SWIFT_ANDROID_aarch64_ICU_I18N",
@@ -128,12 +133,12 @@
         },
         {
           "name": "SWIFT_BUILD_STATIC_SDK_OVERLAY",
-          "value": "True",
+          "value": "false",
           "type": "BOOL"
         },
         {
           "name": "SWIFT_BUILD_STATIC_STDLIB",
-          "value": "True",
+          "value": "false",
           "type": "BOOL"
         },
         {
@@ -288,7 +293,7 @@
         },
         {
           "name": "SWIFT_SIL_VERIFY_ALL",
-          "value": "True",
+          "value": "false",
           "type": "BOOL"
         },
         {
@@ -323,12 +328,12 @@
         },
         {
           "name": "SWIFT_WINDOWS_x86_64_ICU_I18N_INCLUDE",
-          "value": "W:/Swift/ProgramData",
+          "value": "",
           "type": "STRING"
         },
         {
           "name": "SWIFT_WINDOWS_x86_64_ICU_UC_INCLUDE",
-          "value": "W:/Swift/",
+          "value": "",
           "type": "STRING"
         },
         {
@@ -406,8 +411,7 @@
           "value": "W:/Program Files (x86)/Windows Kits/10/bin/10.0.19041.0/x64/rc.exe",
           "type": "FILEPATH"
         }
-      ],
-      "cmakeToolchain": "W:/Swift/tools/CMakeLists.txt"
+      ]
     }
   ]
 }
