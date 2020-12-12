@@ -4,8 +4,8 @@
       "name": "x64-Debug (default)",
       "generator": "Ninja",
       "configurationType": "Debug",
-      "inheritEnvironments": [ "msvc_x64_x64" ],
-      "buildRoot": "${projectDir}\\out\\build\\${name}",
+      "inheritEnvironments": [ "msvc_x86_x64" ],
+      "buildRoot": "W:/Swift/out/build/x64-Debug (default)/CMakeFiles/CMakeTmp",
       "installRoot": "${projectDir}\\out\\install\\${name}",
       "cmakeCommandArgs": "",
       "buildCommandArgs": "",
@@ -13,7 +13,7 @@
       "variables": [
         {
           "name": "CLANG_COMPILER_VERSION",
-          "value": "",
+          "value": "1.0",
           "type": "STRING"
         },
         {
@@ -38,18 +38,13 @@
         },
         {
           "name": "LLVM_DIR",
-          "value": "LLVM_DIR-NOTFOUND",
+          "value": "W:/Swift",
           "type": "PATH"
         },
         {
           "name": "LLVM_ENABLE_WARNINGS",
           "value": "true",
           "type": "BOOL"
-        },
-        {
-          "name": "SWIFT_ANALYZE_CODE_COVERAGE",
-          "value": "FALSE",
-          "type": "STRING"
         },
         {
           "name": "SWIFT_ANDROID_aarch64_ICU_I18N",
@@ -133,12 +128,12 @@
         },
         {
           "name": "SWIFT_BUILD_STATIC_SDK_OVERLAY",
-          "value": "false",
+          "value": "True",
           "type": "BOOL"
         },
         {
           "name": "SWIFT_BUILD_STATIC_STDLIB",
-          "value": "false",
+          "value": "True",
           "type": "BOOL"
         },
         {
@@ -293,7 +288,7 @@
         },
         {
           "name": "SWIFT_SIL_VERIFY_ALL",
-          "value": "false",
+          "value": "True",
           "type": "BOOL"
         },
         {
@@ -328,15 +323,91 @@
         },
         {
           "name": "SWIFT_WINDOWS_x86_64_ICU_I18N_INCLUDE",
-          "value": "",
+          "value": "W:/Swift/ProgramData",
           "type": "STRING"
         },
         {
           "name": "SWIFT_WINDOWS_x86_64_ICU_UC_INCLUDE",
-          "value": "",
+          "value": "W:/Swift/",
           "type": "STRING"
+        },
+        {
+          "name": "CMAKE_C_FLAGS",
+          "value": "W:/DWIN32 /D_WINDOWS /W3",
+          "type": "STRING"
+        },
+        {
+          "name": "CMAKE_C_FLAGS_MINSIZEREL",
+          "value": "W:/MD /O1 /Ob1 /DNDEBUG",
+          "type": "STRING"
+        },
+        {
+          "name": "CMAKE_C_FLAGS_DEBUG",
+          "value": "W:/MDd /Zi /Ob0 /Od /RTC1",
+          "type": "STRING"
+        },
+        {
+          "name": "CMAKE_C_FLAGS_RELEASE",
+          "value": "W:/MD /O2 /Ob2 /DNDEBUG",
+          "type": "STRING"
+        },
+        {
+          "name": "CMAKE_C_FLAGS_RELWITHDEBINFO",
+          "value": "W:/MD /Zi /O2 /Ob1 /DNDEBUG",
+          "type": "STRING"
+        },
+        {
+          "name": "CMAKE_C_STANDARD_LIBRARIES",
+          "value": "W:kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib",
+          "type": "STRING"
+        },
+        {
+          "name": "CMAKE_CXX_FLAGS",
+          "value": "W:/DWIN32 /D_WINDOWS /W3 /GR /EHsc",
+          "type": "STRING"
+        },
+        {
+          "name": "CMAKE_CXX_FLAGS_DEBUG",
+          "value": "W:/MDd /Zi /Ob0 /Od /RTC1",
+          "type": "STRING"
+        },
+        {
+          "name": "CMAKE_CXX_FLAGS_MINSIZEREL",
+          "value": "W:/MD /O1 /Ob1 /DNDEBUG",
+          "type": "STRING"
+        },
+        {
+          "name": "CMAKE_CXX_FLAGS_RELEASE",
+          "value": "W:/MD /O2 /Ob2 /DNDEBUG",
+          "type": "STRING"
+        },
+        {
+          "name": "CMAKE_CXX_FLAGS_RELWITHDEBINFO",
+          "value": "W:/MD /Zi /O2 /Ob1 /DNDEBUG",
+          "type": "STRING"
+        },
+        {
+          "name": "CMAKE_EXE_LINKER_FLAGS",
+          "value": "W:/machine:x64",
+          "type": "STRING"
+        },
+        {
+          "name": "CMAKE_EXPORT_COMPILE_COMMANDS",
+          "value": "True",
+          "type": "BOOL"
+        },
+        {
+          "name": "CMAKE_MT",
+          "value": "W:/Program Files (x86)/Windows Kits/10/bin/10.0.19041.0/x64/mt.exe",
+          "type": "FILEPATH"
+        },
+        {
+          "name": "CMAKE_RC_COMPILER",
+          "value": "W:/Program Files (x86)/Windows Kits/10/bin/10.0.19041.0/x64/rc.exe",
+          "type": "FILEPATH"
         }
-      ]
+      ],
+      "cmakeToolchain": "W:/Swift/tools/CMakeLists.txt"
     }
   ]
 }
